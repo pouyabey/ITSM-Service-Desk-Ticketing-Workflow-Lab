@@ -28,14 +28,14 @@ A field employee reported that their tablet could not connect to the ranch Wi-Fi
 
 The issue was logged in the ITSM system and categorized as a high-priority network/endpoint support incident.
 
-![Ticket created](../screenshots/ticket-01/ticket-01-created.png)
-![Ticket created](../screenshots/ticket-01/ticket-01-02-created.png)
+![Ticket created](../screenshots/ticket-01-created.png)
+![Ticket created](../screenshots/ticket-01-02-created.png)
 
 ### 2. Wi-Fi Settings Reviewed
 
 The iphone Wi-Fi settings were reviewed to confirm whether the device was connected to the correct wireless network.
 
-![Wi-Fi settings review](../screenshots/ticket-01/ticket-01-wifi-settings.png)
+![Wi-Fi settings review](../screenshots/ticket-01-wifi-settings.jpg)
 
 ### 3. Network Connectivity Validated
 
@@ -46,7 +46,7 @@ ipconfig /all
 ping 8.8.8.8
 ping google.com
 ```
-![Network Connectivity Validated](../screenshots/ticket-01/ticket-01-Network-Connectivity-Validated.png)
+![Network Connectivity Validated](../screenshots/ticket-01-Network-Connectivity-Validated.png)
 
 
 ### 4. Troubleshooting And Resolution Notes Added
@@ -58,5 +58,5 @@ ping google.com
 * Confirmed successful wireless connection
 * Verified that the user could access required field applications
 
-![Troubleshooting And Resolution Notes Added](../screenshots/ticket-01/ticket-01-Troubleshooting-And-Resolution-Notes-Added.png)
+![Troubleshooting And Resolution Notes Added](../screenshots/ticket-01-Troubleshooting-And-Resolution-Notes-Added.png)
 
