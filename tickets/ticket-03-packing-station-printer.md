@@ -1,1 +1,46 @@
+# Ticket 03: Packing Station Printer Not Printing Labels
+
+## User Report
+
+A packing station user reported that the label printer was not printing shipping or production labels.
+
+## Ticket Details
+
+| Field | Value |
+|---|---|
+| Ticket Type | Incident |
+| Category | Printer / Operations Support |
+| Priority | High |
+| Status | Resolved |
+| Affected Device | Packing station label printer |
+| Business Impact | Packing workflow delayed because labels could not be printed |
+
+## Initial Symptoms
+
+- Label printer was installed but not printing.
+- Print jobs appeared delayed or stuck.
+- Packing station workflow was affected.
+- Possible causes included a stuck print queue, printer offline status, or Print Spooler service issue.
+
+## Troubleshooting Steps
+
+### 1. Ticket Created
+
+The issue was logged as a high-priority printer support incident because it affected packing station operations.
+
+![Ticket created](../screenshots/ticket-03/ticket-03-created.png)
+
+### 2. Printer Queue Reviewed
+
+The printer queue was reviewed to check for stuck or failed print jobs.
+
+![Printer queue reviewed](../screenshots/ticket-03/ticket-03-printer-queue.png)
+
+### 3. Print Spooler Status Checked
+
+The Windows Print Spooler service was checked using Command Prompt.
+
+```cmd
+sc query spooler
+```
 
